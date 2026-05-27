@@ -1,0 +1,51 @@
+rank,job_name_kr,keco_code,soc_code,frey_rank,frey_prob,category,notes
+1,의사,2411,29-1060,15,0.0042,보건의료,Physicians and Surgeons
+2,간호사,2430,29-1141,46,0.009,보건의료,Registered Nurses
+3,초등학교 교사,2511,25-2021,20,0.0044,교육,Elementary School Teachers
+4,중·고등학교 교사,2512,25-2031,21,0.0044,교육,Secondary School Teachers (Frey 미수록 → 초등으로 근사)
+5,변호사,2611,23-1011,201,0.16,법률,Lawyers (estimate based on legal services trend)
+6,판사,2612,23-1023,156,0.094,법률,Judges Magistrates
+7,일반공무원,3121,43-1011,65,0.014,공공행정,First-Line Supervisors Office Admin
+8,경찰관,4111,33-3050,159,0.098,공공안전,Police and Sheriffs Patrol Officers
+9,소방관,4112,33-2011,76,0.017,공공안전,Firefighters
+10,군인 (장교),4131,55-1014,182,0.13,국방,Artillery & Missile Officers
+11,프로그래머,2230,15-1132,168,0.099,IT,Software Developers Applications
+12,데이터분석가,2241,15-1199,260,0.32,IT,Computer Occupations All Other
+13,AI엔지니어,2243,15-1199,260,0.32,IT,Computer Occupations All Other (신생 직업)
+14,게임개발자,2231,15-1134,154,0.092,IT,Web Developers
+15,UX 디자이너,2851,27-1024,151,0.089,디자인,Graphic Designers
+16,건축가,2351,17-1011,121,0.018,공학,Architects Except Landscape Naval
+17,기계공학자,2353,17-2141,53,0.011,공학,Mechanical Engineers
+18,전기·전자공학자,2354,17-2071,172,0.1,공학,Electrical Engineers
+19,화학공학자,2356,17-2041,116,0.017,공학,Chemical Engineers
+20,생명공학자,2241,19-1029,66,0.015,과학,Biological Scientists All Other
+21,약사,2412,29-1051,54,0.012,보건의료,Pharmacists
+22,한의사,2419,29-1199,200,0.155,보건의료,Health Diagnosing Practitioners All Other
+23,수의사,2415,29-1131,80,0.018,보건의료,Veterinarians
+24,치과의사,2413,29-1021,19,0.0044,보건의료,Dentists General
+25,공인회계사,2721,13-2011,648,0.94,경영금융,Accountants and Auditors
+26,세무사,2722,13-2081,696,0.99,경영금융,Tax Preparers
+27,은행원·금융종사자,3122,43-3071,650,0.96,경영금융,Tellers
+28,마케팅 전문가,2823,11-2021,61,0.014,경영금융,Marketing Managers
+29,방송 PD,2831,27-2012,128,0.0376,예술방송,Producers and Directors (estimate)
+30,작가,2842,27-3043,118,0.038,예술방송,Writers and Authors
+31,유튜버·크리에이터,2832,27-2042,127,0.0741,예술방송,Musicians and Singers (analog)
+32,프로 운동선수,2860,27-2021,143,0.071,예술체육,Athletes and Sports Competitors
+33,가수·배우,2841,27-2042,127,0.0741,예술방송,Musicians and Singers
+34,요리사,4411,35-1011,169,0.1,서비스,Chefs and Head Cooks
+35,제빵사,4412,51-3011,490,0.81,서비스,Bakers
+36,헤어 디자이너,4222,39-5012,176,0.11,서비스,Hairdressers Hairstylists Cosmetologists
+37,사진작가,2823,27-4021,121,0.0231,예술방송,Photographers (estimate)
+38,일러스트레이터,2851,27-1013,71,0.0156,디자인,Multimedia Artists Animators (Fine Artists analog)
+39,번역가,2872,27-3091,217,0.221,예술방송,Interpreters and Translators (Frey rank approx)
+40,통역사,2872,27-3091,217,0.221,예술방송,Interpreters and Translators
+41,항공기 조종사,4321,53-2011,283,0.55,교통,Airline Pilots Copilots Flight Engineers (estimate)
+42,항공 승무원,4322,53-2031,148,0.0875,교통,Flight Attendants
+43,호텔 매니저,4221,11-9081,12,0.0039,서비스,Lodging Managers
+44,여행 가이드,4223,39-7012,360,0.5,서비스,Tour Guides (estimate)
+45,사회복지사,2531,21-1021,79,0.018,사회복지,Child Family and School Social Workers
+46,상담심리사,2532,21-1014,25,0.0048,사회복지,Mental Health Counselors
+47,보육교사,2513,39-9011,243,0.235,교육,Childcare Workers
+48,영양사,2417,29-1031,11,0.0039,보건의료,Dietitians and Nutritionists
+49,물리치료사,2422,29-1123,77,0.017,보건의료,Physical Therapists
+50,연구원 (대학·정부),2241,19-1099,77,0.015,과학,Life Scientists All Other (estimate)
