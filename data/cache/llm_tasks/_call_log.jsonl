@@ -1,0 +1,45 @@
+{"keco_code": "2411", "job_name": "의사", "timestamp": "2026-05-27T14:29:28.376447+00:00", "input_tokens": 587, "output_tokens": 905, "weighted_risk": 0.27}
+{"keco_code": "2430", "job_name": "간호사", "timestamp": "2026-05-27T14:29:36.606370+00:00", "input_tokens": 586, "output_tokens": 934, "weighted_risk": 0.31}
+{"keco_code": "2511", "job_name": "초등학교 교사", "timestamp": "2026-05-27T14:29:43.722128+00:00", "input_tokens": 594, "output_tokens": 816, "weighted_risk": 0.21}
+{"keco_code": "2512", "job_name": "중·고등학교 교사", "timestamp": "2026-05-27T14:29:51.283546+00:00", "input_tokens": 616, "output_tokens": 782, "weighted_risk": 0.29}
+{"keco_code": "2611", "job_name": "변호사", "timestamp": "2026-05-27T14:30:01.119594+00:00", "input_tokens": 591, "output_tokens": 971, "weighted_risk": 0.4}
+{"keco_code": "2612", "job_name": "판사", "timestamp": "2026-05-27T14:30:08.736389+00:00", "input_tokens": 585, "output_tokens": 804, "weighted_risk": 0.21}
+{"keco_code": "3121", "job_name": "일반공무원", "timestamp": "2026-05-27T14:30:17.137926+00:00", "input_tokens": 594, "output_tokens": 861, "weighted_risk": 0.39}
+{"keco_code": "4111", "job_name": "경찰관", "timestamp": "2026-05-27T14:30:25.019498+00:00", "input_tokens": 592, "output_tokens": 822, "weighted_risk": 0.34}
+{"keco_code": "4112", "job_name": "소방관", "timestamp": "2026-05-27T14:30:34.321512+00:00", "input_tokens": 585, "output_tokens": 863, "weighted_risk": 0.21}
+{"keco_code": "4131", "job_name": "군인 (장교)", "timestamp": "2026-05-27T14:30:41.780253+00:00", "input_tokens": 594, "output_tokens": 839, "weighted_risk": 0.39}
+{"keco_code": "2230", "job_name": "프로그래머", "timestamp": "2026-05-27T14:30:48.901142+00:00", "input_tokens": 590, "output_tokens": 858, "weighted_risk": 0.63}
+{"keco_code": "2241", "job_name": "데이터분석가", "timestamp": "2026-05-27T14:30:56.171763+00:00", "input_tokens": 594, "output_tokens": 862, "weighted_risk": 0.6}
+{"keco_code": "2243", "job_name": "AI엔지니어", "timestamp": "2026-05-27T14:31:05.274836+00:00", "input_tokens": 599, "output_tokens": 984, "weighted_risk": 0.65}
+{"keco_code": "2231", "job_name": "게임개발자", "timestamp": "2026-05-27T14:31:11.430513+00:00", "input_tokens": 589, "output_tokens": 747, "weighted_risk": 0.55}
+{"keco_code": "2851", "job_name": "UX 디자이너", "timestamp": "2026-05-27T14:31:18.955134+00:00", "input_tokens": 593, "output_tokens": 868, "weighted_risk": 0.61}
+{"keco_code": "2351", "job_name": "건축가", "timestamp": "2026-05-27T14:31:26.240794+00:00", "input_tokens": 589, "output_tokens": 805, "weighted_risk": 0.456}
+{"keco_code": "2353", "job_name": "기계공학자", "timestamp": "2026-05-27T14:31:33.650466+00:00", "input_tokens": 589, "output_tokens": 863, "weighted_risk": 0.45}
+{"keco_code": "2354", "job_name": "전기·전자공학자", "timestamp": "2026-05-27T14:31:41.788882+00:00", "input_tokens": 595, "output_tokens": 827, "weighted_risk": 0.52}
+{"keco_code": "2356", "job_name": "화학공학자", "timestamp": "2026-05-27T14:31:50.357203+00:00", "input_tokens": 588, "output_tokens": 937, "weighted_risk": 0.54}
+{"keco_code": "2412", "job_name": "약사", "timestamp": "2026-05-27T14:31:57.534182+00:00", "input_tokens": 583, "output_tokens": 775, "weighted_risk": 0.3}
+{"keco_code": "2419", "job_name": "한의사", "timestamp": "2026-05-27T14:32:05.484647+00:00", "input_tokens": 591, "output_tokens": 846, "weighted_risk": 0.38}
+{"keco_code": "2415", "job_name": "수의사", "timestamp": "2026-05-27T14:32:13.077793+00:00", "input_tokens": 586, "output_tokens": 840, "weighted_risk": 0.47}
+{"keco_code": "2413", "job_name": "치과의사", "timestamp": "2026-05-27T14:32:19.454481+00:00", "input_tokens": 589, "output_tokens": 725, "weighted_risk": 0.35}
+{"keco_code": "2721", "job_name": "공인회계사", "timestamp": "2026-05-27T14:32:27.846113+00:00", "input_tokens": 593, "output_tokens": 961, "weighted_risk": 0.74}
+{"keco_code": "2722", "job_name": "세무사", "timestamp": "2026-05-27T14:32:36.424160+00:00", "input_tokens": 586, "output_tokens": 966, "weighted_risk": 0.79}
+{"keco_code": "3122", "job_name": "은행원·금융종사자", "timestamp": "2026-05-27T14:32:43.795218+00:00", "input_tokens": 597, "output_tokens": 794, "weighted_risk": 0.8}
+{"keco_code": "2823", "job_name": "마케팅 전문가", "timestamp": "2026-05-27T14:32:51.440086+00:00", "input_tokens": 595, "output_tokens": 919, "weighted_risk": 0.62}
+{"keco_code": "2831", "job_name": "방송 PD", "timestamp": "2026-05-27T14:33:00.105348+00:00", "input_tokens": 592, "output_tokens": 947, "weighted_risk": 0.45}
+{"keco_code": "2842", "job_name": "작가", "timestamp": "2026-05-27T14:33:07.749182+00:00", "input_tokens": 583, "output_tokens": 833, "weighted_risk": 0.32}
+{"keco_code": "2832", "job_name": "유튜버·크리에이터", "timestamp": "2026-05-27T14:33:16.154861+00:00", "input_tokens": 603, "output_tokens": 866, "weighted_risk": 0.52}
+{"keco_code": "2860", "job_name": "프로 운동선수", "timestamp": "2026-05-27T14:33:22.808404+00:00", "input_tokens": 595, "output_tokens": 797, "weighted_risk": 0.19}
+{"keco_code": "2841", "job_name": "가수·배우", "timestamp": "2026-05-27T14:33:28.869829+00:00", "input_tokens": 591, "output_tokens": 684, "weighted_risk": 0.23}
+{"keco_code": "4411", "job_name": "요리사", "timestamp": "2026-05-27T14:33:37.768786+00:00", "input_tokens": 590, "output_tokens": 887, "weighted_risk": 0.36}
+{"keco_code": "4412", "job_name": "제빵사", "timestamp": "2026-05-27T14:33:44.615804+00:00", "input_tokens": 587, "output_tokens": 709, "weighted_risk": 0.62}
+{"keco_code": "4222", "job_name": "헤어 디자이너", "timestamp": "2026-05-27T14:33:52.643565+00:00", "input_tokens": 606, "output_tokens": 852, "weighted_risk": 0.42}
+{"keco_code": "2872", "job_name": "번역가", "timestamp": "2026-05-27T14:33:59.467844+00:00", "input_tokens": 596, "output_tokens": 779, "weighted_risk": 0.55}
+{"keco_code": "4321", "job_name": "항공기 조종사", "timestamp": "2026-05-27T14:34:07.328416+00:00", "input_tokens": 602, "output_tokens": 840, "weighted_risk": 0.32}
+{"keco_code": "4322", "job_name": "항공 승무원", "timestamp": "2026-05-27T14:34:14.799721+00:00", "input_tokens": 593, "output_tokens": 771, "weighted_risk": 0.22}
+{"keco_code": "4221", "job_name": "호텔 매니저", "timestamp": "2026-05-27T14:34:22.192155+00:00", "input_tokens": 596, "output_tokens": 800, "weighted_risk": 0.45}
+{"keco_code": "4223", "job_name": "여행 가이드", "timestamp": "2026-05-27T14:34:29.881990+00:00", "input_tokens": 593, "output_tokens": 824, "weighted_risk": 0.51}
+{"keco_code": "2531", "job_name": "사회복지사", "timestamp": "2026-05-27T14:34:38.278707+00:00", "input_tokens": 592, "output_tokens": 910, "weighted_risk": 0.33}
+{"keco_code": "2532", "job_name": "상담심리사", "timestamp": "2026-05-27T14:34:46.446755+00:00", "input_tokens": 592, "output_tokens": 920, "weighted_risk": 0.21}
+{"keco_code": "2513", "job_name": "보육교사", "timestamp": "2026-05-27T14:34:53.433511+00:00", "input_tokens": 588, "output_tokens": 726, "weighted_risk": 0.28}
+{"keco_code": "2417", "job_name": "영양사", "timestamp": "2026-05-27T14:35:00.855012+00:00", "input_tokens": 592, "output_tokens": 761, "weighted_risk": 0.35}
+{"keco_code": "2422", "job_name": "물리치료사", "timestamp": "2026-05-27T14:35:08.587599+00:00", "input_tokens": 590, "output_tokens": 912, "weighted_risk": 0.28}
