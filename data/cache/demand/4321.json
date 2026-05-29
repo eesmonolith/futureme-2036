@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.370140+00:00",
+  "category": "교통",
+  "risk_input": 0.32,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 5500,
+      "jobs_lo": 5087,
+      "jobs_hi": 5912,
+      "wage_won_man": 420.0,
+      "wage_lo": 394.8,
+      "wage_hi": 445.2
+    },
+    {
+      "year": 2027,
+      "jobs": 5394,
+      "jobs_lo": 4908,
+      "jobs_hi": 5879,
+      "wage_won_man": 425.0,
+      "wage_lo": 394.4,
+      "wage_hi": 455.6
+    },
+    {
+      "year": 2028,
+      "jobs": 5288,
+      "jobs_lo": 4732,
+      "jobs_hi": 5843,
+      "wage_won_man": 429.8,
+      "wage_lo": 393.7,
+      "wage_hi": 465.9
+    },
+    {
+      "year": 2029,
+      "jobs": 5183,
+      "jobs_lo": 4561,
+      "jobs_hi": 5804,
+      "wage_won_man": 434.5,
+      "wage_lo": 392.8,
+      "wage_hi": 476.2
+    },
+    {
+      "year": 2030,
+      "jobs": 5077,
+      "jobs_lo": 4391,
+      "jobs_hi": 5762,
+      "wage_won_man": 439.1,
+      "wage_lo": 391.7,
+      "wage_hi": 486.5
+    },
+    {
+      "year": 2031,
+      "jobs": 4972,
+      "jobs_lo": 4226,
+      "jobs_hi": 5717,
+      "wage_won_man": 443.5,
+      "wage_lo": 390.3,
+      "wage_hi": 496.7
+    },
+    {
+      "year": 2032,
+      "jobs": 4866,
+      "jobs_lo": 4063,
+      "jobs_hi": 5668,
+      "wage_won_man": 447.8,
+      "wage_lo": 388.7,
+      "wage_hi": 506.9
+    },
+    {
+      "year": 2033,
+      "jobs": 4760,
+      "jobs_lo": 3903,
+      "jobs_hi": 5616,
+      "wage_won_man": 452.0,
+      "wage_lo": 386.9,
+      "wage_hi": 517.1
+    },
+    {
+      "year": 2034,
+      "jobs": 4655,
+      "jobs_lo": 3747,
+      "jobs_hi": 5562,
+      "wage_won_man": 456.0,
+      "wage_lo": 384.9,
+      "wage_hi": 527.1
+    },
+    {
+      "year": 2035,
+      "jobs": 4549,
+      "jobs_lo": 3593,
+      "jobs_hi": 5504,
+      "wage_won_man": 459.9,
+      "wage_lo": 382.6,
+      "wage_hi": 537.2
+    },
+    {
+      "year": 2036,
+      "jobs": 4444,
+      "jobs_lo": 3444,
+      "jobs_hi": 5443,
+      "wage_won_man": 463.7,
+      "wage_lo": 380.2,
+      "wage_hi": 547.2
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "항공기 조종사",
+  "keco_code": "4321"
+}

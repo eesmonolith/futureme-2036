@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.368704+00:00",
+  "category": "서비스",
+  "risk_input": 0.62,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 10000,
+      "jobs_lo": 9250,
+      "jobs_hi": 10750,
+      "wage_won_man": 280.0,
+      "wage_lo": 263.2,
+      "wage_hi": 296.8
+    },
+    {
+      "year": 2027,
+      "jobs": 9628,
+      "jobs_lo": 8761,
+      "jobs_hi": 10494,
+      "wage_won_man": 281.2,
+      "wage_lo": 261.0,
+      "wage_hi": 301.4
+    },
+    {
+      "year": 2028,
+      "jobs": 9256,
+      "jobs_lo": 8284,
+      "jobs_hi": 10227,
+      "wage_won_man": 282.2,
+      "wage_lo": 258.5,
+      "wage_hi": 305.9
+    },
+    {
+      "year": 2029,
+      "jobs": 8884,
+      "jobs_lo": 7817,
+      "jobs_hi": 9950,
+      "wage_won_man": 283.0,
+      "wage_lo": 255.8,
+      "wage_hi": 310.2
+    },
+    {
+      "year": 2030,
+      "jobs": 8512,
+      "jobs_lo": 7362,
+      "jobs_hi": 9661,
+      "wage_won_man": 283.7,
+      "wage_lo": 253.1,
+      "wage_hi": 314.3
+    },
+    {
+      "year": 2031,
+      "jobs": 8140,
+      "jobs_lo": 6919,
+      "jobs_hi": 9361,
+      "wage_won_man": 284.1,
+      "wage_lo": 250.0,
+      "wage_hi": 318.2
+    },
+    {
+      "year": 2032,
+      "jobs": 7768,
+      "jobs_lo": 6486,
+      "jobs_hi": 9049,
+      "wage_won_man": 284.4,
+      "wage_lo": 246.9,
+      "wage_hi": 321.9
+    },
+    {
+      "year": 2033,
+      "jobs": 7396,
+      "jobs_lo": 6064,
+      "jobs_hi": 8727,
+      "wage_won_man": 284.6,
+      "wage_lo": 243.6,
+      "wage_hi": 325.6
+    },
+    {
+      "year": 2034,
+      "jobs": 7023,
+      "jobs_lo": 5653,
+      "jobs_hi": 8392,
+      "wage_won_man": 284.5,
+      "wage_lo": 240.1,
+      "wage_hi": 328.9
+    },
+    {
+      "year": 2035,
+      "jobs": 6652,
+      "jobs_lo": 5255,
+      "jobs_hi": 8048,
+      "wage_won_man": 284.3,
+      "wage_lo": 236.5,
+      "wage_hi": 332.1
+    },
+    {
+      "year": 2036,
+      "jobs": 6280,
+      "jobs_lo": 4867,
+      "jobs_hi": 7693,
+      "wage_won_man": 283.9,
+      "wage_lo": 232.8,
+      "wage_hi": 335.0
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "제빵사",
+  "keco_code": "4412"
+}

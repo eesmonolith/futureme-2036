@@ -1,0 +1,31 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.243211+00:00",
+  "target_keco": "4322",
+  "target_job": "항공 승무원",
+  "target_risk": 0.22,
+  "neighbors": [
+    {
+      "job_name": "승객 경험 디렉터",
+      "keco_code": "EMERGING",
+      "risk": 0.28,
+      "category": "신생/인접 직업",
+      "why": "VIP·이상상황 응대",
+      "source": "emerging_roles.csv"
+    },
+    {
+      "job_name": "프로 운동선수",
+      "keco_code": "2860",
+      "risk": 0.19,
+      "category": "예술체육",
+      "why": "인접 직군 안전 (위험 0.19)"
+    },
+    {
+      "job_name": "초등학교 교사",
+      "keco_code": "2511",
+      "risk": 0.21,
+      "category": "교육",
+      "why": "인접 직군 안전 (위험 0.21)"
+    }
+  ]
+}

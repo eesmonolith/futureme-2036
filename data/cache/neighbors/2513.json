@@ -1,0 +1,31 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.246971+00:00",
+  "target_keco": "2513",
+  "target_job": "보육교사",
+  "target_risk": 0.28,
+  "neighbors": [
+    {
+      "job_name": "초등학교 교사",
+      "keco_code": "2511",
+      "risk": 0.21,
+      "category": "교육",
+      "why": "위험 ≤ 0.3 안전 영역 · 동일 직군(교육) 내 위험 감소 0.07"
+    },
+    {
+      "job_name": "영유아 발달 전문가",
+      "keco_code": "EMERGING",
+      "risk": 0.22,
+      "category": "신생/인접 직업",
+      "why": "발달 평가 인간 판단",
+      "source": "emerging_roles.csv"
+    },
+    {
+      "job_name": "프로 운동선수",
+      "keco_code": "2860",
+      "risk": 0.19,
+      "category": "예술체육",
+      "why": "인접 직군 안전 (위험 0.19)"
+    }
+  ]
+}

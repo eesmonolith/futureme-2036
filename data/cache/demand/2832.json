@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.367124+00:00",
+  "category": "예술방송",
+  "risk_input": 0.52,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 6000,
+      "jobs_lo": 5550,
+      "jobs_hi": 6450,
+      "wage_won_man": 320.0,
+      "wage_lo": 300.8,
+      "wage_hi": 339.2
+    },
+    {
+      "year": 2027,
+      "jobs": 5812,
+      "jobs_lo": 5288,
+      "jobs_hi": 6335,
+      "wage_won_man": 322.2,
+      "wage_lo": 299.0,
+      "wage_hi": 345.4
+    },
+    {
+      "year": 2028,
+      "jobs": 5625,
+      "jobs_lo": 5034,
+      "jobs_hi": 6215,
+      "wage_won_man": 324.1,
+      "wage_lo": 296.9,
+      "wage_hi": 351.3
+    },
+    {
+      "year": 2029,
+      "jobs": 5438,
+      "jobs_lo": 4785,
+      "jobs_hi": 6090,
+      "wage_won_man": 326.0,
+      "wage_lo": 294.7,
+      "wage_hi": 357.3
+    },
+    {
+      "year": 2030,
+      "jobs": 5251,
+      "jobs_lo": 4542,
+      "jobs_hi": 5959,
+      "wage_won_man": 327.6,
+      "wage_lo": 292.2,
+      "wage_hi": 363.0
+    },
+    {
+      "year": 2031,
+      "jobs": 5064,
+      "jobs_lo": 4304,
+      "jobs_hi": 5823,
+      "wage_won_man": 329.1,
+      "wage_lo": 289.6,
+      "wage_hi": 368.6
+    },
+    {
+      "year": 2032,
+      "jobs": 4876,
+      "jobs_lo": 4071,
+      "jobs_hi": 5680,
+      "wage_won_man": 330.4,
+      "wage_lo": 286.8,
+      "wage_hi": 374.0
+    },
+    {
+      "year": 2033,
+      "jobs": 4689,
+      "jobs_lo": 3844,
+      "jobs_hi": 5533,
+      "wage_won_man": 331.6,
+      "wage_lo": 283.8,
+      "wage_hi": 379.4
+    },
+    {
+      "year": 2034,
+      "jobs": 4502,
+      "jobs_lo": 3624,
+      "jobs_hi": 5379,
+      "wage_won_man": 332.6,
+      "wage_lo": 280.7,
+      "wage_hi": 384.5
+    },
+    {
+      "year": 2035,
+      "jobs": 4315,
+      "jobs_lo": 3408,
+      "jobs_hi": 5221,
+      "wage_won_man": 333.4,
+      "wage_lo": 277.4,
+      "wage_hi": 389.4
+    },
+    {
+      "year": 2036,
+      "jobs": 4128,
+      "jobs_lo": 3199,
+      "jobs_hi": 5056,
+      "wage_won_man": 334.1,
+      "wage_lo": 274.0,
+      "wage_hi": 394.2
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "유튜버·크리에이터",
+  "keco_code": "2832"
+}

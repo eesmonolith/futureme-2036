@@ -1,0 +1,24 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.220342+00:00",
+  "target_keco": "4112",
+  "target_job": "소방관",
+  "target_risk": 0.21,
+  "neighbors": [
+    {
+      "job_name": "재난 안전 컨설턴트",
+      "keco_code": "EMERGING",
+      "risk": 0.22,
+      "category": "신생/인접 직업",
+      "why": "재난 대비·교육",
+      "source": "emerging_roles.csv"
+    },
+    {
+      "job_name": "프로 운동선수",
+      "keco_code": "2860",
+      "risk": 0.19,
+      "category": "예술체육",
+      "why": "인접 직군 안전 (위험 0.19)"
+    }
+  ]
+}

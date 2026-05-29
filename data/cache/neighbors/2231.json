@@ -1,0 +1,33 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.223720+00:00",
+  "target_keco": "2231",
+  "target_job": "게임개발자",
+  "target_risk": 0.55,
+  "neighbors": [
+    {
+      "job_name": "게임 내러티브 디자이너",
+      "keco_code": "EMERGING",
+      "risk": 0.25,
+      "category": "신생/인접 직업",
+      "why": "스토리·캐릭터 창작은 인간 강점",
+      "source": "emerging_roles.csv"
+    },
+    {
+      "job_name": "라이브 서비스 PM",
+      "keco_code": "EMERGING",
+      "risk": 0.3,
+      "category": "신생/인접 직업",
+      "why": "커뮤니티 운영 사회적 과업",
+      "source": "emerging_roles.csv"
+    },
+    {
+      "job_name": "XR 콘텐츠 디자이너",
+      "keco_code": "EMERGING",
+      "risk": 0.28,
+      "category": "신생/인접 직업",
+      "why": "체험 공간 디자인 신생 영역",
+      "source": "emerging_roles.csv"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.356899+00:00",
+  "category": "법률",
+  "risk_input": 0.4,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 3000,
+      "jobs_lo": 2775,
+      "jobs_hi": 3225,
+      "wage_won_man": 720.0,
+      "wage_lo": 676.8,
+      "wage_hi": 763.2
+    },
+    {
+      "year": 2027,
+      "jobs": 2928,
+      "jobs_lo": 2664,
+      "jobs_hi": 3191,
+      "wage_won_man": 727.1,
+      "wage_lo": 674.7,
+      "wage_hi": 779.5
+    },
+    {
+      "year": 2028,
+      "jobs": 2856,
+      "jobs_lo": 2556,
+      "jobs_hi": 3155,
+      "wage_won_man": 733.8,
+      "wage_lo": 672.2,
+      "wage_hi": 795.4
+    },
+    {
+      "year": 2029,
+      "jobs": 2784,
+      "jobs_lo": 2449,
+      "jobs_hi": 3118,
+      "wage_won_man": 740.3,
+      "wage_lo": 669.2,
+      "wage_hi": 811.4
+    },
+    {
+      "year": 2030,
+      "jobs": 2712,
+      "jobs_lo": 2345,
+      "jobs_hi": 3078,
+      "wage_won_man": 746.5,
+      "wage_lo": 665.9,
+      "wage_hi": 827.1
+    },
+    {
+      "year": 2031,
+      "jobs": 2640,
+      "jobs_lo": 2244,
+      "jobs_hi": 3036,
+      "wage_won_man": 752.4,
+      "wage_lo": 662.1,
+      "wage_hi": 842.7
+    },
+    {
+      "year": 2032,
+      "jobs": 2568,
+      "jobs_lo": 2144,
+      "jobs_hi": 2991,
+      "wage_won_man": 758.0,
+      "wage_lo": 657.9,
+      "wage_hi": 858.1
+    },
+    {
+      "year": 2033,
+      "jobs": 2496,
+      "jobs_lo": 2046,
+      "jobs_hi": 2945,
+      "wage_won_man": 763.3,
+      "wage_lo": 653.4,
+      "wage_hi": 873.2
+    },
+    {
+      "year": 2034,
+      "jobs": 2424,
+      "jobs_lo": 1951,
+      "jobs_hi": 2896,
+      "wage_won_man": 768.4,
+      "wage_lo": 648.5,
+      "wage_hi": 888.3
+    },
+    {
+      "year": 2035,
+      "jobs": 2352,
+      "jobs_lo": 1858,
+      "jobs_hi": 2845,
+      "wage_won_man": 773.1,
+      "wage_lo": 643.2,
+      "wage_hi": 903.0
+    },
+    {
+      "year": 2036,
+      "jobs": 2280,
+      "jobs_lo": 1767,
+      "jobs_hi": 2793,
+      "wage_won_man": 777.6,
+      "wage_lo": 637.6,
+      "wage_hi": 917.6
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "변호사",
+  "keco_code": "2611"
+}

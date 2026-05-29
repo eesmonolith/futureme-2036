@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.357751+00:00",
+  "category": "공공행정",
+  "risk_input": 0.39,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 25000,
+      "jobs_lo": 23125,
+      "jobs_hi": 26875,
+      "wage_won_man": 350.0,
+      "wage_lo": 329.0,
+      "wage_hi": 371.0
+    },
+    {
+      "year": 2027,
+      "jobs": 24415,
+      "jobs_lo": 22217,
+      "jobs_hi": 26612,
+      "wage_won_man": 353.5,
+      "wage_lo": 328.0,
+      "wage_hi": 379.0
+    },
+    {
+      "year": 2028,
+      "jobs": 23830,
+      "jobs_lo": 21327,
+      "jobs_hi": 26332,
+      "wage_won_man": 356.9,
+      "wage_lo": 326.9,
+      "wage_hi": 386.9
+    },
+    {
+      "year": 2029,
+      "jobs": 23245,
+      "jobs_lo": 20455,
+      "jobs_hi": 26034,
+      "wage_won_man": 360.1,
+      "wage_lo": 325.5,
+      "wage_hi": 394.7
+    },
+    {
+      "year": 2030,
+      "jobs": 22660,
+      "jobs_lo": 19600,
+      "jobs_hi": 25719,
+      "wage_won_man": 363.3,
+      "wage_lo": 324.1,
+      "wage_hi": 402.5
+    },
+    {
+      "year": 2031,
+      "jobs": 22075,
+      "jobs_lo": 18763,
+      "jobs_hi": 25386,
+      "wage_won_man": 366.2,
+      "wage_lo": 322.3,
+      "wage_hi": 410.1
+    },
+    {
+      "year": 2032,
+      "jobs": 21490,
+      "jobs_lo": 17944,
+      "jobs_hi": 25035,
+      "wage_won_man": 369.1,
+      "wage_lo": 320.4,
+      "wage_hi": 417.8
+    },
+    {
+      "year": 2033,
+      "jobs": 20905,
+      "jobs_lo": 17142,
+      "jobs_hi": 24667,
+      "wage_won_man": 371.8,
+      "wage_lo": 318.3,
+      "wage_hi": 425.3
+    },
+    {
+      "year": 2034,
+      "jobs": 20320,
+      "jobs_lo": 16357,
+      "jobs_hi": 24282,
+      "wage_won_man": 374.3,
+      "wage_lo": 315.9,
+      "wage_hi": 432.7
+    },
+    {
+      "year": 2035,
+      "jobs": 19735,
+      "jobs_lo": 15590,
+      "jobs_hi": 23879,
+      "wage_won_man": 376.8,
+      "wage_lo": 313.5,
+      "wage_hi": 440.1
+    },
+    {
+      "year": 2036,
+      "jobs": 19150,
+      "jobs_lo": 14841,
+      "jobs_hi": 23458,
+      "wage_won_man": 379.1,
+      "wage_lo": 310.9,
+      "wage_hi": 447.3
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "일반공무원",
+  "keco_code": "3121"
+}

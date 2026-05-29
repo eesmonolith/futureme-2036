@@ -1,0 +1,31 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.243770+00:00",
+  "target_keco": "4221",
+  "target_job": "호텔 매니저",
+  "target_risk": 0.45,
+  "neighbors": [
+    {
+      "job_name": "요리사",
+      "keco_code": "4411",
+      "risk": 0.36,
+      "category": "서비스",
+      "why": "동일 직군(서비스) 내 위험 감소 0.09"
+    },
+    {
+      "job_name": "헤어 디자이너",
+      "keco_code": "4222",
+      "risk": 0.42,
+      "category": "서비스",
+      "why": "동일 직군(서비스) 내 위험 감소 0.03"
+    },
+    {
+      "job_name": "고객 경험 디렉터",
+      "keco_code": "EMERGING",
+      "risk": 0.28,
+      "category": "신생/인접 직업",
+      "why": "VIP 응대 비루틴",
+      "source": "emerging_roles.csv"
+    }
+  ]
+}

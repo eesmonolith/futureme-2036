@@ -1,0 +1,24 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.246115+00:00",
+  "target_keco": "2532",
+  "target_job": "상담심리사",
+  "target_risk": 0.21,
+  "neighbors": [
+    {
+      "job_name": "디지털 웰니스 코치",
+      "keco_code": "EMERGING",
+      "risk": 0.25,
+      "category": "신생/인접 직업",
+      "why": "온라인 멘토링",
+      "source": "emerging_roles.csv"
+    },
+    {
+      "job_name": "프로 운동선수",
+      "keco_code": "2860",
+      "risk": 0.19,
+      "category": "예술체육",
+      "why": "인접 직군 안전 (위험 0.19)"
+    }
+  ]
+}

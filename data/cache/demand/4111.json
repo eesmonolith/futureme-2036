@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.358180+00:00",
+  "category": "공공안전",
+  "risk_input": 0.34,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 8000,
+      "jobs_lo": 7400,
+      "jobs_hi": 8600,
+      "wage_won_man": 380.0,
+      "wage_lo": 357.2,
+      "wage_hi": 402.8
+    },
+    {
+      "year": 2027,
+      "jobs": 7836,
+      "jobs_lo": 7130,
+      "jobs_hi": 8541,
+      "wage_won_man": 384.3,
+      "wage_lo": 356.6,
+      "wage_hi": 412.0
+    },
+    {
+      "year": 2028,
+      "jobs": 7673,
+      "jobs_lo": 6867,
+      "jobs_hi": 8478,
+      "wage_won_man": 388.5,
+      "wage_lo": 355.9,
+      "wage_hi": 421.1
+    },
+    {
+      "year": 2029,
+      "jobs": 7510,
+      "jobs_lo": 6608,
+      "jobs_hi": 8411,
+      "wage_won_man": 392.5,
+      "wage_lo": 354.8,
+      "wage_hi": 430.2
+    },
+    {
+      "year": 2030,
+      "jobs": 7347,
+      "jobs_lo": 6355,
+      "jobs_hi": 8338,
+      "wage_won_man": 396.4,
+      "wage_lo": 353.6,
+      "wage_hi": 439.2
+    },
+    {
+      "year": 2031,
+      "jobs": 7184,
+      "jobs_lo": 6106,
+      "jobs_hi": 8261,
+      "wage_won_man": 400.2,
+      "wage_lo": 352.2,
+      "wage_hi": 448.2
+    },
+    {
+      "year": 2032,
+      "jobs": 7020,
+      "jobs_lo": 5861,
+      "jobs_hi": 8178,
+      "wage_won_man": 403.9,
+      "wage_lo": 350.6,
+      "wage_hi": 457.2
+    },
+    {
+      "year": 2033,
+      "jobs": 6857,
+      "jobs_lo": 5622,
+      "jobs_hi": 8091,
+      "wage_won_man": 407.4,
+      "wage_lo": 348.7,
+      "wage_hi": 466.1
+    },
+    {
+      "year": 2034,
+      "jobs": 6694,
+      "jobs_lo": 5388,
+      "jobs_hi": 7999,
+      "wage_won_man": 410.8,
+      "wage_lo": 346.7,
+      "wage_hi": 474.9
+    },
+    {
+      "year": 2035,
+      "jobs": 6531,
+      "jobs_lo": 5159,
+      "jobs_hi": 7902,
+      "wage_won_man": 414.1,
+      "wage_lo": 344.5,
+      "wage_hi": 483.7
+    },
+    {
+      "year": 2036,
+      "jobs": 6368,
+      "jobs_lo": 4935,
+      "jobs_hi": 7800,
+      "wage_won_man": 417.2,
+      "wage_lo": 342.1,
+      "wage_hi": 492.3
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "경찰관",
+  "keco_code": "4111"
+}

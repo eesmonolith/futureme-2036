@@ -1,0 +1,31 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.248400+00:00",
+  "target_keco": "2422",
+  "target_job": "물리치료사",
+  "target_risk": 0.28,
+  "neighbors": [
+    {
+      "job_name": "의사",
+      "keco_code": "2411",
+      "risk": 0.27,
+      "category": "보건의료",
+      "why": "위험 ≤ 0.3 안전 영역 · 동일 직군(보건의료) 내 위험 감소 0.01"
+    },
+    {
+      "job_name": "재활 디지털 코치",
+      "keco_code": "EMERGING",
+      "risk": 0.25,
+      "category": "신생/인접 직업",
+      "why": "원격 재활 가이드",
+      "source": "emerging_roles.csv"
+    },
+    {
+      "job_name": "프로 운동선수",
+      "keco_code": "2860",
+      "risk": 0.19,
+      "category": "예술체육",
+      "why": "인접 직군 안전 (위험 0.19)"
+    }
+  ]
+}

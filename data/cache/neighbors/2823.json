@@ -1,0 +1,32 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.233992+00:00",
+  "target_keco": "2823",
+  "target_job": "마케팅 전문가",
+  "target_risk": 0.62,
+  "neighbors": [
+    {
+      "job_name": "브랜드 전략가",
+      "keco_code": "EMERGING",
+      "risk": 0.25,
+      "category": "신생/인접 직업",
+      "why": "장기 정체성 설계",
+      "source": "emerging_roles.csv"
+    },
+    {
+      "job_name": "커뮤니티 매니저",
+      "keco_code": "EMERGING",
+      "risk": 0.28,
+      "category": "신생/인접 직업",
+      "why": "사용자 커뮤니티 운영",
+      "source": "emerging_roles.csv"
+    },
+    {
+      "job_name": "프로 운동선수",
+      "keco_code": "2860",
+      "risk": 0.19,
+      "category": "예술체육",
+      "why": "인접 직군 안전 (위험 0.19)"
+    }
+  ]
+}

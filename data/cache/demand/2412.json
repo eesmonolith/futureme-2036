@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.363167+00:00",
+  "category": "보건의료",
+  "risk_input": 0.3,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 12000,
+      "jobs_lo": 11100,
+      "jobs_hi": 12900,
+      "wage_won_man": 480.0,
+      "wage_lo": 451.2,
+      "wage_hi": 508.8
+    },
+    {
+      "year": 2027,
+      "jobs": 11784,
+      "jobs_lo": 10723,
+      "jobs_hi": 12844,
+      "wage_won_man": 485.9,
+      "wage_lo": 450.9,
+      "wage_hi": 520.9
+    },
+    {
+      "year": 2028,
+      "jobs": 11568,
+      "jobs_lo": 10353,
+      "jobs_hi": 12782,
+      "wage_won_man": 491.7,
+      "wage_lo": 450.4,
+      "wage_hi": 533.0
+    },
+    {
+      "year": 2029,
+      "jobs": 11352,
+      "jobs_lo": 9989,
+      "jobs_hi": 12714,
+      "wage_won_man": 497.4,
+      "wage_lo": 449.6,
+      "wage_hi": 545.2
+    },
+    {
+      "year": 2030,
+      "jobs": 11136,
+      "jobs_lo": 9632,
+      "jobs_hi": 12639,
+      "wage_won_man": 502.8,
+      "wage_lo": 448.5,
+      "wage_hi": 557.1
+    },
+    {
+      "year": 2031,
+      "jobs": 10920,
+      "jobs_lo": 9282,
+      "jobs_hi": 12558,
+      "wage_won_man": 508.2,
+      "wage_lo": 447.2,
+      "wage_hi": 569.2
+    },
+    {
+      "year": 2032,
+      "jobs": 10704,
+      "jobs_lo": 8937,
+      "jobs_hi": 12470,
+      "wage_won_man": 513.4,
+      "wage_lo": 445.6,
+      "wage_hi": 581.2
+    },
+    {
+      "year": 2033,
+      "jobs": 10488,
+      "jobs_lo": 8600,
+      "jobs_hi": 12375,
+      "wage_won_man": 518.5,
+      "wage_lo": 443.8,
+      "wage_hi": 593.2
+    },
+    {
+      "year": 2034,
+      "jobs": 10272,
+      "jobs_lo": 8268,
+      "jobs_hi": 12275,
+      "wage_won_man": 523.4,
+      "wage_lo": 441.7,
+      "wage_hi": 605.1
+    },
+    {
+      "year": 2035,
+      "jobs": 10056,
+      "jobs_lo": 7944,
+      "jobs_hi": 12167,
+      "wage_won_man": 528.2,
+      "wage_lo": 439.5,
+      "wage_hi": 616.9
+    },
+    {
+      "year": 2036,
+      "jobs": 9840,
+      "jobs_lo": 7626,
+      "jobs_hi": 12054,
+      "wage_won_man": 532.8,
+      "wage_lo": 436.9,
+      "wage_hi": 628.7
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "약사",
+  "keco_code": "2412"
+}

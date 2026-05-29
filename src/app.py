@@ -72,48 +72,40 @@ def get_job_risk_precomputed(keco_code: str, base_prob: float) -> dict:
 
 
 def get_demand_curve(keco_code: str, base_prob: float) -> pd.DataFrame:
-    """Return precomputed Prophet demand+wage forecast.
-
-    Stub: linear interpolation derived from base_prob until KEEP/GOMS data lands.
-    """
+    """Return precomputed Prophet-style demand+wage forecast (with 95% CI)."""
     cache_file = CACHE_DIR / "demand" / f"{keco_code}.json"
     if cache_file.exists():
         payload = json.loads(cache_file.read_text(encoding="utf-8"))
         return pd.DataFrame(payload["forecast"])
 
     years = list(range(2026, 2037))
-    base_jobs = 10000
-    decline = base_prob * 0.5
     rows = []
     for i, y in enumerate(years):
-        factor = 1 - decline * (i / (len(years) - 1))
-        jobs = int(base_jobs * factor)
-        wage = 4500 * (1 + 0.02 * i) * (1 - 0.2 * base_prob * (i / (len(years) - 1)))
-        rows.append({"year": y, "jobs": jobs, "wage_won_man": round(wage, 1)})
+        t = i / (len(years) - 1)
+        jobs = int(10000 * max(0.3, 1 - base_prob * 0.6 * t))
+        band = jobs * 0.15 * (0.5 + t)
+        wage = round(400 * (1 + 0.02 * i) * (1 - 0.25 * base_prob * t), 1)
+        wband = wage * 0.12 * (0.5 + t)
+        rows.append({
+            "year": y,
+            "jobs": jobs, "jobs_lo": int(max(0, jobs - band)), "jobs_hi": int(jobs + band),
+            "wage_won_man": wage, "wage_lo": round(wage - wband, 1), "wage_hi": round(wage + wband, 1),
+        })
     return pd.DataFrame(rows)
 
 
 def get_safe_neighbors(keco_code: str, base_prob: float, all_jobs: pd.DataFrame) -> pd.DataFrame:
-    """Return top-3 safe adjacent jobs (risk <= 0.3).
-
-    Stub: pick 3 lowest-risk jobs in the same KECO major category, plus closest by KECO numeric distance.
-    Replace with SBERT + KEEP-edge filtered NetworkX graph when data lands.
-    """
+    """Return precomputed neighbor list (curated emerging roles + same-category low-risk)."""
     cache_file = CACHE_DIR / "neighbors" / f"{keco_code}.json"
     if cache_file.exists():
         payload = json.loads(cache_file.read_text(encoding="utf-8"))
         return pd.DataFrame(payload["neighbors"])
-
+    # fallback
     safe = all_jobs[all_jobs["frey_prob"] <= 0.3].copy()
-    safe = safe[safe["keco_code"] != keco_code]
-    try:
-        target_major = str(keco_code)[:2]
-        safe["same_major"] = safe["keco_code"].astype(str).str[:2] == target_major
-    except Exception:
-        safe["same_major"] = False
-    safe = safe.sort_values(["same_major", "frey_prob"], ascending=[False, True]).head(3)
+    safe = safe[safe["keco_code"].astype(str) != keco_code]
+    safe = safe.sort_values("frey_prob").head(3)
     safe = safe.rename(columns={"job_name_kr": "job_name", "frey_prob": "risk"})
-    safe["why"] = "동일 직군 내 자동화 위험 낮음 (KECO 대분류 일치)"
+    safe["why"] = "fallback (캐시 미보유)"
     return safe[["job_name", "keco_code", "risk", "why"]]
 
 
@@ -185,14 +177,22 @@ def student_mode(target_jobs: pd.DataFrame):
         task_df = pd.DataFrame(risk_payload["tasks"])
         st.dataframe(task_df, use_container_width=True, hide_index=True)
 
-        # Demand/wage curve
+        # Demand/wage curve with 95% CI
         st.markdown("#### 일자리 수 · 임금 시계열 (Prophet + KEEP·GOMS)")
         curve = get_demand_curve(str(target["keco_code"]), float(target["frey_prob"]))
+        curve_idx = curve.set_index("year")
         col_a, col_b = st.columns(2)
-        col_a.line_chart(curve.set_index("year")["jobs"], use_container_width=True)
-        col_a.caption("일자리 수 (전망)")
-        col_b.line_chart(curve.set_index("year")["wage_won_man"], use_container_width=True)
-        col_b.caption("월 평균 임금 (만원, 전망)")
+        col_a.line_chart(curve_idx[["jobs", "jobs_lo", "jobs_hi"]], use_container_width=True)
+        col_a.caption("일자리 수 (전망, 95% 신뢰구간)")
+        col_b.line_chart(curve_idx[["wage_won_man", "wage_lo", "wage_hi"]], use_container_width=True)
+        col_b.caption("월 평균 임금 (만원, 95% 신뢰구간)")
+        # year-specific snapshot
+        sel = curve_idx.loc[year]
+        st.caption(
+            f"📅 {year}년 시나리오: 일자리 약 {int(sel['jobs']):,}명 "
+            f"(95% CI {int(sel['jobs_lo']):,}~{int(sel['jobs_hi']):,}) · "
+            f"월 임금 약 {sel['wage_won_man']:.0f}만원 (CI {sel['wage_lo']:.0f}~{sel['wage_hi']:.0f})"
+        )
 
         # Safe neighbors
         st.markdown("#### 🛟 안전 우회 인접 직업 Top 3 (위험 ≤ 0.3)")

@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.359812+00:00",
+  "category": "IT",
+  "risk_input": 0.6,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 20000,
+      "jobs_lo": 18500,
+      "jobs_hi": 21500,
+      "wage_won_man": 520.0,
+      "wage_lo": 488.8,
+      "wage_hi": 551.2
+    },
+    {
+      "year": 2027,
+      "jobs": 19280,
+      "jobs_lo": 17544,
+      "jobs_hi": 21015,
+      "wage_won_man": 522.4,
+      "wage_lo": 484.8,
+      "wage_hi": 560.0
+    },
+    {
+      "year": 2028,
+      "jobs": 18560,
+      "jobs_lo": 16611,
+      "jobs_hi": 20508,
+      "wage_won_man": 524.6,
+      "wage_lo": 480.5,
+      "wage_hi": 568.7
+    },
+    {
+      "year": 2029,
+      "jobs": 17840,
+      "jobs_lo": 15699,
+      "jobs_hi": 19980,
+      "wage_won_man": 526.4,
+      "wage_lo": 475.9,
+      "wage_hi": 576.9
+    },
+    {
+      "year": 2030,
+      "jobs": 17120,
+      "jobs_lo": 14808,
+      "jobs_hi": 19431,
+      "wage_won_man": 527.9,
+      "wage_lo": 470.9,
+      "wage_hi": 584.9
+    },
+    {
+      "year": 2031,
+      "jobs": 16400,
+      "jobs_lo": 13940,
+      "jobs_hi": 18860,
+      "wage_won_man": 529.1,
+      "wage_lo": 465.6,
+      "wage_hi": 592.6
+    },
+    {
+      "year": 2032,
+      "jobs": 15680,
+      "jobs_lo": 13092,
+      "jobs_hi": 18267,
+      "wage_won_man": 530.0,
+      "wage_lo": 460.0,
+      "wage_hi": 600.0
+    },
+    {
+      "year": 2033,
+      "jobs": 14960,
+      "jobs_lo": 12267,
+      "jobs_hi": 17652,
+      "wage_won_man": 530.6,
+      "wage_lo": 454.2,
+      "wage_hi": 607.0
+    },
+    {
+      "year": 2034,
+      "jobs": 14240,
+      "jobs_lo": 11463,
+      "jobs_hi": 17016,
+      "wage_won_man": 530.8,
+      "wage_lo": 448.0,
+      "wage_hi": 613.6
+    },
+    {
+      "year": 2035,
+      "jobs": 13519,
+      "jobs_lo": 10680,
+      "jobs_hi": 16357,
+      "wage_won_man": 530.8,
+      "wage_lo": 441.6,
+      "wage_hi": 620.0
+    },
+    {
+      "year": 2036,
+      "jobs": 12800,
+      "jobs_lo": 9920,
+      "jobs_hi": 15680,
+      "wage_won_man": 530.4,
+      "wage_lo": 434.9,
+      "wage_hi": 625.9
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "데이터분석가",
+  "keco_code": "2241"
+}

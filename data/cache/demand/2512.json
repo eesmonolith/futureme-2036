@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.356618+00:00",
+  "category": "교육",
+  "risk_input": 0.29,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 18000,
+      "jobs_lo": 16650,
+      "jobs_hi": 19350,
+      "wage_won_man": 360.0,
+      "wage_lo": 338.4,
+      "wage_hi": 381.6
+    },
+    {
+      "year": 2027,
+      "jobs": 17686,
+      "jobs_lo": 16094,
+      "jobs_hi": 19277,
+      "wage_won_man": 364.5,
+      "wage_lo": 338.3,
+      "wage_hi": 390.7
+    },
+    {
+      "year": 2028,
+      "jobs": 17373,
+      "jobs_lo": 15548,
+      "jobs_hi": 19197,
+      "wage_won_man": 369.0,
+      "wage_lo": 338.0,
+      "wage_hi": 400.0
+    },
+    {
+      "year": 2029,
+      "jobs": 17060,
+      "jobs_lo": 15012,
+      "jobs_hi": 19107,
+      "wage_won_man": 373.3,
+      "wage_lo": 337.5,
+      "wage_hi": 409.1
+    },
+    {
+      "year": 2030,
+      "jobs": 16747,
+      "jobs_lo": 14486,
+      "jobs_hi": 19007,
+      "wage_won_man": 377.5,
+      "wage_lo": 336.7,
+      "wage_hi": 418.3
+    },
+    {
+      "year": 2031,
+      "jobs": 16434,
+      "jobs_lo": 13968,
+      "jobs_hi": 18899,
+      "wage_won_man": 381.6,
+      "wage_lo": 335.8,
+      "wage_hi": 427.4
+    },
+    {
+      "year": 2032,
+      "jobs": 16120,
+      "jobs_lo": 13460,
+      "jobs_hi": 18779,
+      "wage_won_man": 385.7,
+      "wage_lo": 334.8,
+      "wage_hi": 436.6
+    },
+    {
+      "year": 2033,
+      "jobs": 15807,
+      "jobs_lo": 12961,
+      "jobs_hi": 18652,
+      "wage_won_man": 389.6,
+      "wage_lo": 333.5,
+      "wage_hi": 445.7
+    },
+    {
+      "year": 2034,
+      "jobs": 15494,
+      "jobs_lo": 12472,
+      "jobs_hi": 18515,
+      "wage_won_man": 393.4,
+      "wage_lo": 332.0,
+      "wage_hi": 454.8
+    },
+    {
+      "year": 2035,
+      "jobs": 15181,
+      "jobs_lo": 11992,
+      "jobs_hi": 18369,
+      "wage_won_man": 397.1,
+      "wage_lo": 330.4,
+      "wage_hi": 463.8
+    },
+    {
+      "year": 2036,
+      "jobs": 14868,
+      "jobs_lo": 11522,
+      "jobs_hi": 18213,
+      "wage_won_man": 400.7,
+      "wage_lo": 328.6,
+      "wage_hi": 472.8
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "중·고등학교 교사",
+  "keco_code": "2512"
+}

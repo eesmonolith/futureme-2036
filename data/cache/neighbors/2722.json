@@ -1,0 +1,31 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.232075+00:00",
+  "target_keco": "2722",
+  "target_job": "세무사",
+  "target_risk": 0.79,
+  "neighbors": [
+    {
+      "job_name": "마케팅 전문가",
+      "keco_code": "2823",
+      "risk": 0.62,
+      "category": "경영금융",
+      "why": "동일 직군(경영금융) 내 위험 감소 0.17"
+    },
+    {
+      "job_name": "공인회계사",
+      "keco_code": "2721",
+      "risk": 0.74,
+      "category": "경영금융",
+      "why": "동일 직군(경영금융) 내 위험 감소 0.05"
+    },
+    {
+      "job_name": "국제 조세 전문가",
+      "keco_code": "EMERGING",
+      "risk": 0.32,
+      "category": "신생/인접 직업",
+      "why": "각국 법령 해석",
+      "source": "emerging_roles.csv"
+    }
+  ]
+}

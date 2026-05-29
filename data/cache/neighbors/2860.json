@@ -1,0 +1,17 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.237689+00:00",
+  "target_keco": "2860",
+  "target_job": "프로 운동선수",
+  "target_risk": 0.19,
+  "neighbors": [
+    {
+      "job_name": "스포츠 데이터 분석가",
+      "keco_code": "EMERGING",
+      "risk": 0.3,
+      "category": "신생/인접 직업",
+      "why": "경기 데이터 해석",
+      "source": "emerging_roles.csv"
+    }
+  ]
+}

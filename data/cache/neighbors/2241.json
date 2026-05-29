@@ -1,0 +1,32 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.222551+00:00",
+  "target_keco": "2241",
+  "target_job": "데이터분석가",
+  "target_risk": 0.6,
+  "neighbors": [
+    {
+      "job_name": "게임개발자",
+      "keco_code": "2231",
+      "risk": 0.55,
+      "category": "IT",
+      "why": "동일 직군(IT) 내 위험 감소 0.05"
+    },
+    {
+      "job_name": "데이터 거버넌스 전문가",
+      "keco_code": "EMERGING",
+      "risk": 0.22,
+      "category": "신생/인접 직업",
+      "why": "정책·규제 해석은 자동화 한계",
+      "source": "emerging_roles.csv"
+    },
+    {
+      "job_name": "비즈니스 트랜슬레이터",
+      "keco_code": "EMERGING",
+      "risk": 0.25,
+      "category": "신생/인접 직업",
+      "why": "도메인↔기술 통역은 비루틴",
+      "source": "emerging_roles.csv"
+    }
+  ]
+}

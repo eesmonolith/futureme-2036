@@ -26,6 +26,10 @@ data/cache/*
 !data/cache/llm_tasks/
 !data/cache/llm_tasks/*.json
 !data/cache/llm_tasks/*.jsonl
+!data/cache/demand/
+!data/cache/demand/*.json
+!data/cache/neighbors/
+!data/cache/neighbors/*.json
 
 # Node
 node_modules/

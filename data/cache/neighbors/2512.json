@@ -1,0 +1,31 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.214795+00:00",
+  "target_keco": "2512",
+  "target_job": "중·고등학교 교사",
+  "target_risk": 0.29,
+  "neighbors": [
+    {
+      "job_name": "초등학교 교사",
+      "keco_code": "2511",
+      "risk": 0.21,
+      "category": "교육",
+      "why": "위험 ≤ 0.3 안전 영역 · 동일 직군(교육) 내 위험 감소 0.08"
+    },
+    {
+      "job_name": "보육교사",
+      "keco_code": "2513",
+      "risk": 0.28,
+      "category": "교육",
+      "why": "위험 ≤ 0.3 안전 영역 · 동일 직군(교육) 내 위험 감소 0.01"
+    },
+    {
+      "job_name": "진로교육 코디네이터",
+      "keco_code": "EMERGING",
+      "risk": 0.28,
+      "category": "신생/인접 직업",
+      "why": "진로지도 인간 신뢰",
+      "source": "emerging_roles.csv"
+    }
+  ]
+}

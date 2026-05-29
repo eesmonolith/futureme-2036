@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.366363+00:00",
+  "category": "예술방송",
+  "risk_input": 0.45,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 6000,
+      "jobs_lo": 5550,
+      "jobs_hi": 6450,
+      "wage_won_man": 320.0,
+      "wage_lo": 300.8,
+      "wage_hi": 339.2
+    },
+    {
+      "year": 2027,
+      "jobs": 5838,
+      "jobs_lo": 5312,
+      "jobs_hi": 6363,
+      "wage_won_man": 322.7,
+      "wage_lo": 299.5,
+      "wage_hi": 345.9
+    },
+    {
+      "year": 2028,
+      "jobs": 5676,
+      "jobs_lo": 5080,
+      "jobs_hi": 6271,
+      "wage_won_man": 325.3,
+      "wage_lo": 298.0,
+      "wage_hi": 352.6
+    },
+    {
+      "year": 2029,
+      "jobs": 5514,
+      "jobs_lo": 4852,
+      "jobs_hi": 6175,
+      "wage_won_man": 327.8,
+      "wage_lo": 296.3,
+      "wage_hi": 359.3
+    },
+    {
+      "year": 2030,
+      "jobs": 5352,
+      "jobs_lo": 4629,
+      "jobs_hi": 6074,
+      "wage_won_man": 330.0,
+      "wage_lo": 294.4,
+      "wage_hi": 365.6
+    },
+    {
+      "year": 2031,
+      "jobs": 5190,
+      "jobs_lo": 4411,
+      "jobs_hi": 5968,
+      "wage_won_man": 332.2,
+      "wage_lo": 292.3,
+      "wage_hi": 372.1
+    },
+    {
+      "year": 2032,
+      "jobs": 5028,
+      "jobs_lo": 4198,
+      "jobs_hi": 5857,
+      "wage_won_man": 334.2,
+      "wage_lo": 290.1,
+      "wage_hi": 378.3
+    },
+    {
+      "year": 2033,
+      "jobs": 4866,
+      "jobs_lo": 3990,
+      "jobs_hi": 5741,
+      "wage_won_man": 336.1,
+      "wage_lo": 287.7,
+      "wage_hi": 384.5
+    },
+    {
+      "year": 2034,
+      "jobs": 4704,
+      "jobs_lo": 3786,
+      "jobs_hi": 5621,
+      "wage_won_man": 337.8,
+      "wage_lo": 285.1,
+      "wage_hi": 390.5
+    },
+    {
+      "year": 2035,
+      "jobs": 4542,
+      "jobs_lo": 3588,
+      "jobs_hi": 5495,
+      "wage_won_man": 339.4,
+      "wage_lo": 282.4,
+      "wage_hi": 396.4
+    },
+    {
+      "year": 2036,
+      "jobs": 4380,
+      "jobs_lo": 3394,
+      "jobs_hi": 5365,
+      "wage_won_man": 340.8,
+      "wage_lo": 279.5,
+      "wage_hi": 402.1
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "방송 PD",
+  "keco_code": "2831"
+}

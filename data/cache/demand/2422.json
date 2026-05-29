@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.373047+00:00",
+  "category": "보건의료",
+  "risk_input": 0.28,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 12000,
+      "jobs_lo": 11100,
+      "jobs_hi": 12900,
+      "wage_won_man": 480.0,
+      "wage_lo": 451.2,
+      "wage_hi": 508.8
+    },
+    {
+      "year": 2027,
+      "jobs": 11798,
+      "jobs_lo": 10736,
+      "jobs_hi": 12859,
+      "wage_won_man": 486.2,
+      "wage_lo": 451.2,
+      "wage_hi": 521.2
+    },
+    {
+      "year": 2028,
+      "jobs": 11596,
+      "jobs_lo": 10378,
+      "jobs_hi": 12813,
+      "wage_won_man": 492.2,
+      "wage_lo": 450.9,
+      "wage_hi": 533.5
+    },
+    {
+      "year": 2029,
+      "jobs": 11395,
+      "jobs_lo": 10027,
+      "jobs_hi": 12762,
+      "wage_won_man": 498.1,
+      "wage_lo": 450.3,
+      "wage_hi": 545.9
+    },
+    {
+      "year": 2030,
+      "jobs": 11193,
+      "jobs_lo": 9681,
+      "jobs_hi": 12704,
+      "wage_won_man": 503.9,
+      "wage_lo": 449.5,
+      "wage_hi": 558.3
+    },
+    {
+      "year": 2031,
+      "jobs": 10992,
+      "jobs_lo": 9343,
+      "jobs_hi": 12640,
+      "wage_won_man": 509.5,
+      "wage_lo": 448.4,
+      "wage_hi": 570.6
+    },
+    {
+      "year": 2032,
+      "jobs": 10790,
+      "jobs_lo": 9009,
+      "jobs_hi": 12570,
+      "wage_won_man": 515.0,
+      "wage_lo": 447.0,
+      "wage_hi": 583.0
+    },
+    {
+      "year": 2033,
+      "jobs": 10588,
+      "jobs_lo": 8682,
+      "jobs_hi": 12493,
+      "wage_won_man": 520.4,
+      "wage_lo": 445.5,
+      "wage_hi": 595.3
+    },
+    {
+      "year": 2034,
+      "jobs": 10387,
+      "jobs_lo": 8361,
+      "jobs_hi": 12412,
+      "wage_won_man": 525.6,
+      "wage_lo": 443.6,
+      "wage_hi": 607.6
+    },
+    {
+      "year": 2035,
+      "jobs": 10185,
+      "jobs_lo": 8046,
+      "jobs_hi": 12323,
+      "wage_won_man": 530.7,
+      "wage_lo": 441.5,
+      "wage_hi": 619.9
+    },
+    {
+      "year": 2036,
+      "jobs": 9984,
+      "jobs_lo": 7737,
+      "jobs_hi": 12230,
+      "wage_won_man": 535.7,
+      "wage_lo": 439.3,
+      "wage_hi": 632.1
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "물리치료사",
+  "keco_code": "2422"
+}

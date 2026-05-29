@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.371487+00:00",
+  "category": "사회복지",
+  "risk_input": 0.33,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 9000,
+      "jobs_lo": 8325,
+      "jobs_hi": 9675,
+      "wage_won_man": 300.0,
+      "wage_lo": 282.0,
+      "wage_hi": 318.0
+    },
+    {
+      "year": 2027,
+      "jobs": 8821,
+      "jobs_lo": 8027,
+      "jobs_hi": 9614,
+      "wage_won_man": 303.5,
+      "wage_lo": 281.6,
+      "wage_hi": 325.4
+    },
+    {
+      "year": 2028,
+      "jobs": 8643,
+      "jobs_lo": 7735,
+      "jobs_hi": 9550,
+      "wage_won_man": 306.9,
+      "wage_lo": 281.1,
+      "wage_hi": 332.7
+    },
+    {
+      "year": 2029,
+      "jobs": 8465,
+      "jobs_lo": 7449,
+      "jobs_hi": 9480,
+      "wage_won_man": 310.1,
+      "wage_lo": 280.3,
+      "wage_hi": 339.9
+    },
+    {
+      "year": 2030,
+      "jobs": 8287,
+      "jobs_lo": 7168,
+      "jobs_hi": 9405,
+      "wage_won_man": 313.3,
+      "wage_lo": 279.5,
+      "wage_hi": 347.1
+    },
+    {
+      "year": 2031,
+      "jobs": 8109,
+      "jobs_lo": 6892,
+      "jobs_hi": 9325,
+      "wage_won_man": 316.4,
+      "wage_lo": 278.4,
+      "wage_hi": 354.4
+    },
+    {
+      "year": 2032,
+      "jobs": 7930,
+      "jobs_lo": 6621,
+      "jobs_hi": 9238,
+      "wage_won_man": 319.4,
+      "wage_lo": 277.2,
+      "wage_hi": 361.6
+    },
+    {
+      "year": 2033,
+      "jobs": 7752,
+      "jobs_lo": 6356,
+      "jobs_hi": 9147,
+      "wage_won_man": 322.2,
+      "wage_lo": 275.8,
+      "wage_hi": 368.6
+    },
+    {
+      "year": 2034,
+      "jobs": 7574,
+      "jobs_lo": 6097,
+      "jobs_hi": 9050,
+      "wage_won_man": 325.0,
+      "wage_lo": 274.3,
+      "wage_hi": 375.7
+    },
+    {
+      "year": 2035,
+      "jobs": 7396,
+      "jobs_lo": 5842,
+      "jobs_hi": 8949,
+      "wage_won_man": 327.7,
+      "wage_lo": 272.6,
+      "wage_hi": 382.8
+    },
+    {
+      "year": 2036,
+      "jobs": 7218,
+      "jobs_lo": 5593,
+      "jobs_hi": 8842,
+      "wage_won_man": 330.3,
+      "wage_lo": 270.8,
+      "wage_hi": 389.8
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "사회복지사",
+  "keco_code": "2531"
+}

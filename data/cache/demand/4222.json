@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.369191+00:00",
+  "category": "서비스",
+  "risk_input": 0.42,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 10000,
+      "jobs_lo": 9250,
+      "jobs_hi": 10750,
+      "wage_won_man": 280.0,
+      "wage_lo": 263.2,
+      "wage_hi": 296.8
+    },
+    {
+      "year": 2027,
+      "jobs": 9748,
+      "jobs_lo": 8870,
+      "jobs_hi": 10625,
+      "wage_won_man": 282.6,
+      "wage_lo": 262.3,
+      "wage_hi": 302.9
+    },
+    {
+      "year": 2028,
+      "jobs": 9496,
+      "jobs_lo": 8498,
+      "jobs_hi": 10493,
+      "wage_won_man": 285.1,
+      "wage_lo": 261.2,
+      "wage_hi": 309.0
+    },
+    {
+      "year": 2029,
+      "jobs": 9244,
+      "jobs_lo": 8134,
+      "jobs_hi": 10353,
+      "wage_won_man": 287.5,
+      "wage_lo": 259.9,
+      "wage_hi": 315.1
+    },
+    {
+      "year": 2030,
+      "jobs": 8992,
+      "jobs_lo": 7778,
+      "jobs_hi": 10205,
+      "wage_won_man": 289.7,
+      "wage_lo": 258.4,
+      "wage_hi": 321.0
+    },
+    {
+      "year": 2031,
+      "jobs": 8740,
+      "jobs_lo": 7429,
+      "jobs_hi": 10051,
+      "wage_won_man": 291.8,
+      "wage_lo": 256.8,
+      "wage_hi": 326.8
+    },
+    {
+      "year": 2032,
+      "jobs": 8488,
+      "jobs_lo": 7087,
+      "jobs_hi": 9888,
+      "wage_won_man": 293.8,
+      "wage_lo": 255.0,
+      "wage_hi": 332.6
+    },
+    {
+      "year": 2033,
+      "jobs": 8236,
+      "jobs_lo": 6753,
+      "jobs_hi": 9718,
+      "wage_won_man": 295.7,
+      "wage_lo": 253.1,
+      "wage_hi": 338.3
+    },
+    {
+      "year": 2034,
+      "jobs": 7984,
+      "jobs_lo": 6427,
+      "jobs_hi": 9540,
+      "wage_won_man": 297.5,
+      "wage_lo": 251.1,
+      "wage_hi": 343.9
+    },
+    {
+      "year": 2035,
+      "jobs": 7732,
+      "jobs_lo": 6108,
+      "jobs_hi": 9355,
+      "wage_won_man": 299.2,
+      "wage_lo": 248.9,
+      "wage_hi": 349.5
+    },
+    {
+      "year": 2036,
+      "jobs": 7480,
+      "jobs_lo": 5797,
+      "jobs_hi": 9163,
+      "wage_won_man": 300.7,
+      "wage_lo": 246.6,
+      "wage_hi": 354.8
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "헤어 디자이너",
+  "keco_code": "4222"
+}

@@ -1,0 +1,31 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.228339+00:00",
+  "target_keco": "2412",
+  "target_job": "약사",
+  "target_risk": 0.3,
+  "neighbors": [
+    {
+      "job_name": "의사",
+      "keco_code": "2411",
+      "risk": 0.27,
+      "category": "보건의료",
+      "why": "위험 ≤ 0.3 안전 영역 · 동일 직군(보건의료) 내 위험 감소 0.03"
+    },
+    {
+      "job_name": "물리치료사",
+      "keco_code": "2422",
+      "risk": 0.28,
+      "category": "보건의료",
+      "why": "위험 ≤ 0.3 안전 영역 · 동일 직군(보건의료) 내 위험 감소 0.02"
+    },
+    {
+      "job_name": "약물치료 전문가 (임상약사)",
+      "keco_code": "EMERGING",
+      "risk": 0.22,
+      "category": "신생/인접 직업",
+      "why": "복약 상담 인간 신뢰 필요",
+      "source": "emerging_roles.csv"
+    }
+  ]
+}

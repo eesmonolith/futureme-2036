@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.367568+00:00",
+  "category": "예술체육",
+  "risk_input": 0.19,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 4000,
+      "jobs_lo": 3700,
+      "jobs_hi": 4300,
+      "wage_won_man": 380.0,
+      "wage_lo": 357.2,
+      "wage_hi": 402.8
+    },
+    {
+      "year": 2027,
+      "jobs": 3954,
+      "jobs_lo": 3598,
+      "jobs_hi": 4309,
+      "wage_won_man": 385.8,
+      "wage_lo": 358.0,
+      "wage_hi": 413.6
+    },
+    {
+      "year": 2028,
+      "jobs": 3908,
+      "jobs_lo": 3497,
+      "jobs_hi": 4318,
+      "wage_won_man": 391.4,
+      "wage_lo": 358.5,
+      "wage_hi": 424.3
+    },
+    {
+      "year": 2029,
+      "jobs": 3863,
+      "jobs_lo": 3399,
+      "jobs_hi": 4326,
+      "wage_won_man": 397.1,
+      "wage_lo": 359.0,
+      "wage_hi": 435.2
+    },
+    {
+      "year": 2030,
+      "jobs": 3817,
+      "jobs_lo": 3301,
+      "jobs_hi": 4332,
+      "wage_won_man": 402.6,
+      "wage_lo": 359.1,
+      "wage_hi": 446.1
+    },
+    {
+      "year": 2031,
+      "jobs": 3772,
+      "jobs_lo": 3206,
+      "jobs_hi": 4337,
+      "wage_won_man": 408.1,
+      "wage_lo": 359.1,
+      "wage_hi": 457.1
+    },
+    {
+      "year": 2032,
+      "jobs": 3726,
+      "jobs_lo": 3111,
+      "jobs_hi": 4340,
+      "wage_won_man": 413.5,
+      "wage_lo": 358.9,
+      "wage_hi": 468.1
+    },
+    {
+      "year": 2033,
+      "jobs": 3680,
+      "jobs_lo": 3017,
+      "jobs_hi": 4342,
+      "wage_won_man": 418.8,
+      "wage_lo": 358.5,
+      "wage_hi": 479.1
+    },
+    {
+      "year": 2034,
+      "jobs": 3635,
+      "jobs_lo": 2926,
+      "jobs_hi": 4343,
+      "wage_won_man": 424.0,
+      "wage_lo": 357.9,
+      "wage_hi": 490.1
+    },
+    {
+      "year": 2035,
+      "jobs": 3589,
+      "jobs_lo": 2835,
+      "jobs_hi": 4342,
+      "wage_won_man": 429.2,
+      "wage_lo": 357.1,
+      "wage_hi": 501.3
+    },
+    {
+      "year": 2036,
+      "jobs": 3544,
+      "jobs_lo": 2746,
+      "jobs_hi": 4341,
+      "wage_won_man": 434.3,
+      "wage_lo": 356.1,
+      "wage_hi": 512.5
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "프로 운동선수",
+  "keco_code": "2860"
+}

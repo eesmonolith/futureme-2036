@@ -1,0 +1,31 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.238588+00:00",
+  "target_keco": "2841",
+  "target_job": "가수·배우",
+  "target_risk": 0.23,
+  "neighbors": [
+    {
+      "job_name": "공연 큐레이터",
+      "keco_code": "EMERGING",
+      "risk": 0.25,
+      "category": "신생/인접 직업",
+      "why": "큐레이션 인간 안목",
+      "source": "emerging_roles.csv"
+    },
+    {
+      "job_name": "프로 운동선수",
+      "keco_code": "2860",
+      "risk": 0.19,
+      "category": "예술체육",
+      "why": "인접 직군 안전 (위험 0.19)"
+    },
+    {
+      "job_name": "초등학교 교사",
+      "keco_code": "2511",
+      "risk": 0.21,
+      "category": "교육",
+      "why": "인접 직군 안전 (위험 0.21)"
+    }
+  ]
+}

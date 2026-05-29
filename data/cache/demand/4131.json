@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.359001+00:00",
+  "category": "국방",
+  "risk_input": 0.39,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 15000,
+      "jobs_lo": 13875,
+      "jobs_hi": 16125,
+      "wage_won_man": 400.0,
+      "wage_lo": 376.0,
+      "wage_hi": 424.0
+    },
+    {
+      "year": 2027,
+      "jobs": 14649,
+      "jobs_lo": 13330,
+      "jobs_hi": 15967,
+      "wage_won_man": 404.0,
+      "wage_lo": 374.9,
+      "wage_hi": 433.1
+    },
+    {
+      "year": 2028,
+      "jobs": 14298,
+      "jobs_lo": 12796,
+      "jobs_hi": 15799,
+      "wage_won_man": 407.9,
+      "wage_lo": 373.6,
+      "wage_hi": 442.2
+    },
+    {
+      "year": 2029,
+      "jobs": 13947,
+      "jobs_lo": 12273,
+      "jobs_hi": 15620,
+      "wage_won_man": 411.6,
+      "wage_lo": 372.1,
+      "wage_hi": 451.1
+    },
+    {
+      "year": 2030,
+      "jobs": 13596,
+      "jobs_lo": 11760,
+      "jobs_hi": 15431,
+      "wage_won_man": 415.2,
+      "wage_lo": 370.4,
+      "wage_hi": 460.0
+    },
+    {
+      "year": 2031,
+      "jobs": 13245,
+      "jobs_lo": 11258,
+      "jobs_hi": 15231,
+      "wage_won_man": 418.6,
+      "wage_lo": 368.4,
+      "wage_hi": 468.8
+    },
+    {
+      "year": 2032,
+      "jobs": 12894,
+      "jobs_lo": 10766,
+      "jobs_hi": 15021,
+      "wage_won_man": 421.8,
+      "wage_lo": 366.1,
+      "wage_hi": 477.5
+    },
+    {
+      "year": 2033,
+      "jobs": 12543,
+      "jobs_lo": 10285,
+      "jobs_hi": 14800,
+      "wage_won_man": 424.9,
+      "wage_lo": 363.7,
+      "wage_hi": 486.1
+    },
+    {
+      "year": 2034,
+      "jobs": 12192,
+      "jobs_lo": 9814,
+      "jobs_hi": 14569,
+      "wage_won_man": 427.8,
+      "wage_lo": 361.1,
+      "wage_hi": 494.5
+    },
+    {
+      "year": 2035,
+      "jobs": 11841,
+      "jobs_lo": 9354,
+      "jobs_hi": 14327,
+      "wage_won_man": 430.6,
+      "wage_lo": 358.3,
+      "wage_hi": 502.9
+    },
+    {
+      "year": 2036,
+      "jobs": 11490,
+      "jobs_lo": 8904,
+      "jobs_hi": 14075,
+      "wage_won_man": 433.2,
+      "wage_lo": 355.2,
+      "wage_hi": 511.2
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "군인 (장교)",
+  "keco_code": "4131"
+}

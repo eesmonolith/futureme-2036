@@ -1,0 +1,31 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.221948+00:00",
+  "target_keco": "2230",
+  "target_job": "프로그래머",
+  "target_risk": 0.63,
+  "neighbors": [
+    {
+      "job_name": "게임개발자",
+      "keco_code": "2231",
+      "risk": 0.55,
+      "category": "IT",
+      "why": "동일 직군(IT) 내 위험 감소 0.08"
+    },
+    {
+      "job_name": "데이터분석가",
+      "keco_code": "2241",
+      "risk": 0.6,
+      "category": "IT",
+      "why": "동일 직군(IT) 내 위험 감소 0.03"
+    },
+    {
+      "job_name": "MLOps 엔지니어",
+      "keco_code": "EMERGING",
+      "risk": 0.18,
+      "category": "신생/인접 직업",
+      "why": "모델 배포·운영은 도메인 책임 영역 (AI 자동화 잔존)",
+      "source": "emerging_roles.csv"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.361197+00:00",
+  "category": "디자인",
+  "risk_input": 0.61,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 7000,
+      "jobs_lo": 6475,
+      "jobs_hi": 7525,
+      "wage_won_man": 360.0,
+      "wage_lo": 338.4,
+      "wage_hi": 381.6
+    },
+    {
+      "year": 2027,
+      "jobs": 6743,
+      "jobs_lo": 6136,
+      "jobs_hi": 7349,
+      "wage_won_man": 361.6,
+      "wage_lo": 335.6,
+      "wage_hi": 387.6
+    },
+    {
+      "year": 2028,
+      "jobs": 6487,
+      "jobs_lo": 5805,
+      "jobs_hi": 7168,
+      "wage_won_man": 363.0,
+      "wage_lo": 332.5,
+      "wage_hi": 393.5
+    },
+    {
+      "year": 2029,
+      "jobs": 6231,
+      "jobs_lo": 5483,
+      "jobs_hi": 6978,
+      "wage_won_man": 364.1,
+      "wage_lo": 329.1,
+      "wage_hi": 399.1
+    },
+    {
+      "year": 2030,
+      "jobs": 5975,
+      "jobs_lo": 5168,
+      "jobs_hi": 6781,
+      "wage_won_man": 365.1,
+      "wage_lo": 325.7,
+      "wage_hi": 404.5
+    },
+    {
+      "year": 2031,
+      "jobs": 5719,
+      "jobs_lo": 4861,
+      "jobs_hi": 6576,
+      "wage_won_man": 365.8,
+      "wage_lo": 321.9,
+      "wage_hi": 409.7
+    },
+    {
+      "year": 2032,
+      "jobs": 5462,
+      "jobs_lo": 4560,
+      "jobs_hi": 6363,
+      "wage_won_man": 366.3,
+      "wage_lo": 317.9,
+      "wage_hi": 414.7
+    },
+    {
+      "year": 2033,
+      "jobs": 5206,
+      "jobs_lo": 4268,
+      "jobs_hi": 6143,
+      "wage_won_man": 366.6,
+      "wage_lo": 313.8,
+      "wage_hi": 419.4
+    },
+    {
+      "year": 2034,
+      "jobs": 4950,
+      "jobs_lo": 3984,
+      "jobs_hi": 5915,
+      "wage_won_man": 366.7,
+      "wage_lo": 309.5,
+      "wage_hi": 423.9
+    },
+    {
+      "year": 2035,
+      "jobs": 4694,
+      "jobs_lo": 3708,
+      "jobs_hi": 5679,
+      "wage_won_man": 366.5,
+      "wage_lo": 304.9,
+      "wage_hi": 428.1
+    },
+    {
+      "year": 2036,
+      "jobs": 4438,
+      "jobs_lo": 3439,
+      "jobs_hi": 5436,
+      "wage_won_man": 366.1,
+      "wage_lo": 300.2,
+      "wage_hi": 432.0
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "UX 디자이너",
+  "keco_code": "2851"
+}

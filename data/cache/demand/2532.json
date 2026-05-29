@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.371890+00:00",
+  "category": "사회복지",
+  "risk_input": 0.21,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 9000,
+      "jobs_lo": 8325,
+      "jobs_hi": 9675,
+      "wage_won_man": 300.0,
+      "wage_lo": 282.0,
+      "wage_hi": 318.0
+    },
+    {
+      "year": 2027,
+      "jobs": 8886,
+      "jobs_lo": 8086,
+      "jobs_hi": 9685,
+      "wage_won_man": 304.4,
+      "wage_lo": 282.5,
+      "wage_hi": 326.3
+    },
+    {
+      "year": 2028,
+      "jobs": 8773,
+      "jobs_lo": 7851,
+      "jobs_hi": 9694,
+      "wage_won_man": 308.7,
+      "wage_lo": 282.8,
+      "wage_hi": 334.6
+    },
+    {
+      "year": 2029,
+      "jobs": 8659,
+      "jobs_lo": 7619,
+      "jobs_hi": 9698,
+      "wage_won_man": 313.0,
+      "wage_lo": 283.0,
+      "wage_hi": 343.0
+    },
+    {
+      "year": 2030,
+      "jobs": 8546,
+      "jobs_lo": 7392,
+      "jobs_hi": 9699,
+      "wage_won_man": 317.2,
+      "wage_lo": 282.9,
+      "wage_hi": 351.5
+    },
+    {
+      "year": 2031,
+      "jobs": 8433,
+      "jobs_lo": 7168,
+      "jobs_hi": 9697,
+      "wage_won_man": 321.3,
+      "wage_lo": 282.7,
+      "wage_hi": 359.9
+    },
+    {
+      "year": 2032,
+      "jobs": 8319,
+      "jobs_lo": 6946,
+      "jobs_hi": 9691,
+      "wage_won_man": 325.4,
+      "wage_lo": 282.4,
+      "wage_hi": 368.4
+    },
+    {
+      "year": 2033,
+      "jobs": 8206,
+      "jobs_lo": 6728,
+      "jobs_hi": 9683,
+      "wage_won_man": 329.4,
+      "wage_lo": 282.0,
+      "wage_hi": 376.8
+    },
+    {
+      "year": 2034,
+      "jobs": 8092,
+      "jobs_lo": 6514,
+      "jobs_hi": 9669,
+      "wage_won_man": 333.4,
+      "wage_lo": 281.4,
+      "wage_hi": 385.4
+    },
+    {
+      "year": 2035,
+      "jobs": 7979,
+      "jobs_lo": 6303,
+      "jobs_hi": 9654,
+      "wage_won_man": 337.3,
+      "wage_lo": 280.6,
+      "wage_hi": 394.0
+    },
+    {
+      "year": 2036,
+      "jobs": 7866,
+      "jobs_lo": 6096,
+      "jobs_hi": 9635,
+      "wage_won_man": 341.1,
+      "wage_lo": 279.7,
+      "wage_hi": 402.5
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "상담심리사",
+  "keco_code": "2532"
+}

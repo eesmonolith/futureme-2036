@@ -1,0 +1,32 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.231454+00:00",
+  "target_keco": "2721",
+  "target_job": "공인회계사",
+  "target_risk": 0.74,
+  "neighbors": [
+    {
+      "job_name": "마케팅 전문가",
+      "keco_code": "2823",
+      "risk": 0.62,
+      "category": "경영금융",
+      "why": "동일 직군(경영금융) 내 위험 감소 0.12"
+    },
+    {
+      "job_name": "ESG 회계 전문가",
+      "keco_code": "EMERGING",
+      "risk": 0.3,
+      "category": "신생/인접 직업",
+      "why": "지속가능성 보고 기준 해석",
+      "source": "emerging_roles.csv"
+    },
+    {
+      "job_name": "법무·세무 통합 컨설턴트",
+      "keco_code": "EMERGING",
+      "risk": 0.35,
+      "category": "신생/인접 직업",
+      "why": "통합 자문 인간 신뢰",
+      "source": "emerging_roles.csv"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.230783+00:00",
+  "target_keco": "2413",
+  "target_job": "치과의사",
+  "target_risk": 0.35,
+  "neighbors": [
+    {
+      "job_name": "의사",
+      "keco_code": "2411",
+      "risk": 0.27,
+      "category": "보건의료",
+      "why": "위험 ≤ 0.3 안전 영역 · 동일 직군(보건의료) 내 위험 감소 0.08"
+    },
+    {
+      "job_name": "물리치료사",
+      "keco_code": "2422",
+      "risk": 0.28,
+      "category": "보건의료",
+      "why": "위험 ≤ 0.3 안전 영역 · 동일 직군(보건의료) 내 위험 감소 0.07"
+    },
+    {
+      "job_name": "약사",
+      "keco_code": "2412",
+      "risk": 0.3,
+      "category": "보건의료",
+      "why": "위험 ≤ 0.3 안전 영역 · 동일 직군(보건의료) 내 위험 감소 0.05"
+    }
+  ]
+}

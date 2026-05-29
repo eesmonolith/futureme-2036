@@ -1,0 +1,110 @@
+{
+  "method": "stub-prophet (frey-osborne + claude risk weighted)",
+  "generated_at": "2026-05-29T05:35:05.362244+00:00",
+  "category": "공학",
+  "risk_input": 0.52,
+  "forecast": [
+    {
+      "year": 2026,
+      "jobs": 14000,
+      "jobs_lo": 12950,
+      "jobs_hi": 15050,
+      "wage_won_man": 480.0,
+      "wage_lo": 451.2,
+      "wage_hi": 508.8
+    },
+    {
+      "year": 2027,
+      "jobs": 13563,
+      "jobs_lo": 12342,
+      "jobs_hi": 14783,
+      "wage_won_man": 483.2,
+      "wage_lo": 448.4,
+      "wage_hi": 518.0
+    },
+    {
+      "year": 2028,
+      "jobs": 13126,
+      "jobs_lo": 11747,
+      "jobs_hi": 14504,
+      "wage_won_man": 486.2,
+      "wage_lo": 445.4,
+      "wage_hi": 527.0
+    },
+    {
+      "year": 2029,
+      "jobs": 12689,
+      "jobs_lo": 11166,
+      "jobs_hi": 14211,
+      "wage_won_man": 489.0,
+      "wage_lo": 442.1,
+      "wage_hi": 535.9
+    },
+    {
+      "year": 2030,
+      "jobs": 12252,
+      "jobs_lo": 10597,
+      "jobs_hi": 13906,
+      "wage_won_man": 491.4,
+      "wage_lo": 438.3,
+      "wage_hi": 544.5
+    },
+    {
+      "year": 2031,
+      "jobs": 11816,
+      "jobs_lo": 10043,
+      "jobs_hi": 13588,
+      "wage_won_man": 493.7,
+      "wage_lo": 434.5,
+      "wage_hi": 552.9
+    },
+    {
+      "year": 2032,
+      "jobs": 11379,
+      "jobs_lo": 9501,
+      "jobs_hi": 13256,
+      "wage_won_man": 495.7,
+      "wage_lo": 430.3,
+      "wage_hi": 561.1
+    },
+    {
+      "year": 2033,
+      "jobs": 10942,
+      "jobs_lo": 8972,
+      "jobs_hi": 12911,
+      "wage_won_man": 497.4,
+      "wage_lo": 425.8,
+      "wage_hi": 569.0
+    },
+    {
+      "year": 2034,
+      "jobs": 10505,
+      "jobs_lo": 8456,
+      "jobs_hi": 12553,
+      "wage_won_man": 498.9,
+      "wage_lo": 421.1,
+      "wage_hi": 576.7
+    },
+    {
+      "year": 2035,
+      "jobs": 10068,
+      "jobs_lo": 7953,
+      "jobs_hi": 12182,
+      "wage_won_man": 500.1,
+      "wage_lo": 416.1,
+      "wage_hi": 584.1
+    },
+    {
+      "year": 2036,
+      "jobs": 9632,
+      "jobs_lo": 7464,
+      "jobs_hi": 11799,
+      "wage_won_man": 501.1,
+      "wage_lo": 410.9,
+      "wage_hi": 591.3
+    }
+  ],
+  "ethical_note": "예측 아닌 시나리오. 95% 신뢰구간 음영 표시 권장.",
+  "job_name": "전기·전자공학자",
+  "keco_code": "2354"
+}

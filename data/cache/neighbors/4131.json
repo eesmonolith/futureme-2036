@@ -1,0 +1,31 @@
+{
+  "method": "stub-sbert + curated emerging roles (KEEP-style transitions)",
+  "generated_at": "2026-05-29T05:46:41.221330+00:00",
+  "target_keco": "4131",
+  "target_job": "군인 (장교)",
+  "target_risk": 0.39,
+  "neighbors": [
+    {
+      "job_name": "국방 사이버보안 전문가",
+      "keco_code": "EMERGING",
+      "risk": 0.3,
+      "category": "신생/인접 직업",
+      "why": "사이버 작전 분석",
+      "source": "emerging_roles.csv"
+    },
+    {
+      "job_name": "프로 운동선수",
+      "keco_code": "2860",
+      "risk": 0.19,
+      "category": "예술체육",
+      "why": "인접 직군 안전 (위험 0.19)"
+    },
+    {
+      "job_name": "초등학교 교사",
+      "keco_code": "2511",
+      "risk": 0.21,
+      "category": "교육",
+      "why": "인접 직군 안전 (위험 0.21)"
+    }
+  ]
+}
